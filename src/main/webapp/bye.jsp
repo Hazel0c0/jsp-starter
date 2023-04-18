@@ -10,18 +10,20 @@
 %>
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <h1><%= name %>님은 <%= birthYear %>년생입니다.</h1></body>
-
+    
+    <h1><%= name %>님은 <%= birthYear %>년생입니다.</h1>
+    
     <% for (int i=0; i < 3; i++) { %>
         <h2>jsp 버전~~~~ ㅋㅋㅋ</h2>
     <% } %>
 
+</body>
 </html>

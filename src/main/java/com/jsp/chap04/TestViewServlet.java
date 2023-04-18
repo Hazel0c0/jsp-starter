@@ -12,11 +12,11 @@ import java.io.IOException;
 @WebServlet("/hahahoho")
 public class TestViewServlet extends HttpServlet {
 
-  @Override
-  protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    // jsp 파일 열기 : 포워딩
-    RequestDispatcher dp
-        = req.getRequestDispatcher("/WEB-INF/test.jsp");
-    dp.forward(req, resp);
-  }
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // jsp 파일 열기 : 포워딩
+        RequestDispatcher dp
+                = req.getRequestDispatcher("/WEB-INF/test.jsp");
+        dp.forward(req, resp);
+    }
 }
